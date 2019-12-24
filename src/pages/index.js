@@ -170,6 +170,7 @@ const IndexPage = () => {
            <p>Lindsay Kahne Handmade is my way of keeping the creativity flowing and also providing lessons for those who are also interested in diving into the sewing world. It can be so rewarding to see your idea come to fruition. Can’t wait to sew with you!</p>
          </h3>
 
+
        </div>
      </div>
   </div>
