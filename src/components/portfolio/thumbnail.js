@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Thumbnail = ({title, subtitle, modal, imgsrc }) => {
+const Thumbnail = ({title, subtitle, modal, imgsrc, imgthing }) => {
 
   return (
 
@@ -11,7 +11,7 @@ const Thumbnail = ({title, subtitle, modal, imgsrc }) => {
             <i className="fas fa-plus fa-3x"></i>
           </div>
         </div>
-        <img className="img-fluid" src={imgsrc} alt=""/>
+        {imgsrc ? <img className="img-fluid" src={imgsrc} alt=""/> : imgthing }
       </a>
       <div className="portfolio-caption">
         <h4>{title}</h4>

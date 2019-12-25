@@ -7,15 +7,33 @@
 
 import React from "react"
 import PropTypes from "prop-types"
-import Helmet from "react-helmet"
+import { useStaticQuery, graphql } from "gatsby"
+import Img from 'gatsby-image'
 
 const Layout = ({ children }) => {
+ const data = useStaticQuery(graphql`
+    query SiteTitleQuery {
+      site {
+        siteMetadata {
+          title
+        }
+      }
+      file(relativePath: {
+        regex:"/background/"
+      }) {
+        childImageSharp {
+          fluid(maxWidth: 1000){
+            ...GatsbyImageSharpFluid_tracedSVG
+          }
+        }
+      }
+    }
+  `)
 
-
+  {/* <Img fluid={data.file.childImageSharp.fluid} /> */}
   return (
     <>
       {children}
-
       <footer>
         <div className="container">
           <div className="row">
@@ -34,5 +52,6 @@ const Layout = ({ children }) => {
 Layout.propTypes = {
   children: PropTypes.node.isRequired,
 }
+
 
 export default Layout
