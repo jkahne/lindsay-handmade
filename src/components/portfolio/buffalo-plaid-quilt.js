@@ -10,7 +10,7 @@ const BuffaloPlaidQuilt = () => {
         regex:"/1thumbnail/"
       }) {
         childImageSharp {
-          fluid(maxHeight: 200, quality: 100){
+          fluid(maxHeight: 200){
             ...GatsbyImageSharpFluid
           }
         }
