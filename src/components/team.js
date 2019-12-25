@@ -1,5 +1,5 @@
 import React from 'react'
-import linds from "../assets/images/lindsayHeadshot.jpg"
+// import linds from "../assets/images/lindsayHeadshot.jpg"
 import { useStaticQuery, graphql } from "gatsby"
 import Img from 'gatsby-image'
 
