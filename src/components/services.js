@@ -45,7 +45,7 @@ const Services = () => {
          </span>
          <h4 className="service-heading">Classes</h4>
          <p className="">
-          I currently offer sewing classNamees! We can work one on one or have a fun group workshop!  Classes are for all skill levels, whether you have no idea how to thread a sewing machine or just need to learn some tricks of the trade, we can customize classes for you. Let me know what you or your group are interested in!
+          I currently offer sewing classes! We can work one on one or have a fun group workshop!  Classes are for all skill levels, whether you have no idea how to thread a sewing machine or just need to learn some tricks of the trade, we can customize classes for you. Let me know what you or your group are interested in!
          </p>
        </div>
      </div>
