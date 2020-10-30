@@ -18,7 +18,7 @@ const Services = () => {
 //       }
 //     }
 //   `)
-  // <Img fluid={data.file.childImageSharp.fluid} alt="custom sewing" /> 
+  // <Img fluid={data.file.childImageSharp.fluid} alt="custom sewing" />
   return (
 
  <section id="services">
@@ -30,16 +30,18 @@ const Services = () => {
        </div>
      </div>
      <div className="row text-center">
-       <div className="col-md-6">
+       <div className="col-md-12">
          <span >
            <img src={image53} height="100em" alt="custom sewing"/>
          </span>
-         <h4 className="service-heading">Custom Sewing</h4>
+         <h4 className="service-heading">Quilt Patterns</h4>
          <p className="">
-           I work directly with you to design and create your custom makes. Whether it be home decor or clothing, together we can tackle something special. We will set up a consultation to discuss all of your options!
+           Find them in my <a href="https://www.etsy.com/shop/LindsayKahneHandmade">Etsy Shop</a>
          </p>
        </div>
-       <div className="col-md-6">
+     </div>
+     <div className="row text-center mt-5">
+       <div className="col-md-12">
          <span className="linds-icon" >
            <img src={image60} height="100em" alt="classes"/>
          </span>
@@ -55,4 +57,4 @@ const Services = () => {
 }
 
 
-export default Services 
+export default Services
