@@ -76,6 +76,7 @@ function SEO({ description, lang, meta, title }) {
       {/* <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'> */}
       {/* <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'> */}
       {/* <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'> */}
+      <meta name="p:domain_verify" content="2a1ead0933aff6cd664029db2f5bc6d2"/>
     </Helmet>
   )
 }
